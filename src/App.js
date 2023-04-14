@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
-
+import Posts from "./components/lsn2task1/Posts";
 
 
 
@@ -8,6 +8,8 @@
 
 function App() {
   return (
+
+
     <div className="App">
       {/*з jsonplaceholder отримати всі пости в компоненту Posts.js*/}
       {/*відобразити кожного інформацію (id,title) з кожного поста (компонента Post)*/}
@@ -20,7 +22,7 @@ function App() {
       {/*https://api.spacexdata.com/v3/launches/*/}
       {/*потрібно вивести всі запуски кораблів окрім 2020 року*/}
       {/*репрезентувати тільки окремі поля (зазначені в скрнішоті в папці)*/}
-
+      <Posts/>
 
       {/*#Advance*/}
 
